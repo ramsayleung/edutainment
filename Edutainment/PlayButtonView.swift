@@ -19,7 +19,7 @@ struct PlayButtonView: View {
             BackgroundFrame(width: 150, height: 70)
             
             Button{
-                isPressed.toggle()
+                isPressed = true
                 // Navigate to the question view until the animation finishs
                 DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
                     isPlaying = true
@@ -42,5 +42,9 @@ struct PlayButtonView: View {
                 QuestionView(multiplicationTableCapacity: tableSize, questionAmount: questionAmount)
             })
         }.padding(.vertical, 20)
+            .onAppear {
+                isPlaying = false
+                isPressed = false
+            }
     }
 }

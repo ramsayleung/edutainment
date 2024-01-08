@@ -29,7 +29,6 @@ struct ContentView: View {
                     .padding(.horizontal, 10)
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                     
-                    
                     VStack(spacing: 10) {
                         Text("Select a Multiplication Table: ")
                             .font(.custom("Salsa-Regular", size: 28))

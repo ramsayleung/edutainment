@@ -60,6 +60,7 @@
 		5764AF902B4B25E200796A36 /* PlayButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButtonView.swift; sourceTree = "<group>"; };
 		5764AF922B4B284F00796A36 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; tabWidth = 4; };
 		5764AF942B4B60CA00796A36 /* K26ToyBlocks123.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = K26ToyBlocks123.ttf; sourceTree = "<group>"; };
+		5764AF962B4B902A00796A36 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		5764AF472B4A583200796A36 = {
 			isa = PBXGroup;
 			children = (
+				5764AF962B4B902A00796A36 /* README.md */,
 				5764AF522B4A583200796A36 /* Edutainment */,
 				5764AF642B4A583300796A36 /* EdutainmentTests */,
 				5764AF6E2B4A583300796A36 /* EdutainmentUITests */,
