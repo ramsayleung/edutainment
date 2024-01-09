@@ -22,4 +22,4 @@ For example, I use `DispatchQueue.main.asyncAfter` to delay the execution of cod
 
 ## Acknowledge 
 
-The UI of this app is high inspired by [Dulce's work](https://github.com/DulceItamar/100-days-of-SwiftUI/tree/main/Edutainment)
+The UI of this app is highly inspired by [Dulce's work](https://github.com/DulceItamar/100-days-of-SwiftUI/tree/main/Edutainment)
